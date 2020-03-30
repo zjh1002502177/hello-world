@@ -1,42 +1,201 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,inital-scale=1.0">
-</head>
-<style>
-    html{
-        background-color: white;
+<hmtl>
+    <head>
+        <title>国内旅游</title>
+    </head>
     
-    }
+    <style>
+        html{
+            background:#f5f5f5;
+        }
+        body{
+            background-color:white;
+            width: 100%;
+            max-width: 640px;
+            margin: 0 auto;
+        }
+        h1{
+            color: white;
+            text-align: center;
+            font-size: 35px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .qui-header{
+            background-color: #2bab79;
+            height: 90px;
+        }
+        .plcRouteList1{
+            margin-left: 5px;
+        }
+        .plcRouteList2
+        {
+            margin-left: 5px;
+        }
+        .plc{
+            border-radius: 50%;
+        }
+        .bottom{
+            position: absolute ;
+            top: 400px;
+            left: 460px;
+        }
+        .bottom2
+        {
+            position: absolute ;
+            top: 775px;
+            left: 460px;
+        }
+        .face{
+            float: left;
+            border: 1px solid white;
+            width: 39px;
+            height: 39px;
+            border-radius: 50%;
+        }
+        .face2
+        {
+            float: left;
+            border: 1px solid white;
+            width: 39px;
+            height: 39px;
+            border-radius: 50%;
+        }
+        .title{
+            position: absolute;
+            color: white;
+            white-space: nowrap;
+            font-size: 18px;
+            font-weight: bolder;
+            line-height: 40px;
+            margin-left: 70px;
+        }
+        .title2
+        {
+            position: absolute;
+            color: white;
+            white-space: nowrap;
+            font-size: 18px;
+            font-weight: bolder;
+            line-height: 40px;
+            margin-left: 70px; 
+        }
+        .day{
+            position: absolute;
+            top: 85px;
+            right: 470px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            text-align: center;
+            background-color: #2bab79;
+            line-height: 40px;
+            color: white;
+        }
+        .secondday
+        {
+            position: absolute;
+            top: 485px;
+            right: 470px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            text-align: center;
+            background-color: #2bab79;
+            line-height: 40px;
+            color: white; 
+        }
+        em{
+            font-style: normal;
+            font-weight: bolder;
+        }
+        span{
+            margin-left: 30px;
+        }
+        .quid-aside
+        {
+            position:absolute;
+            top: 10px;
+            left: 130px;
+            border: 1px solid red;
+            width: 200px;
+            height: 800px;
+            
 
-    body{
-        background-color: white;
-        width: 100%;
-        max-width: 640px;
-        margin:0 auto
+        }
+    </style>
+    
+    <body>
+        <header class="qui-header">
+            <h1>国内旅游计划</h1>
+        </header>
         
-    }
-    h1{
-        color: white;
-        text-align: center;
-        font-size: 35px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .qui-header{
-        background-color: #2bab79;
-    }
-</style>
-<body>
-    <header class="qui-header">
-    <h1>国内旅游计划</h1>
-    </header>
+        <section class="plcRouteList1">
+            <a href="">
+                <img src="./images/fengjing.jpg" alt="" width="635">
+            </a> 
+    
 
-    <span>    
-    <a
-        href="www.baidu.com"><img src="images/hd.jpg" alt ="呵呵" width="640">
-    </a>
-    </span>>
+    
+            <div class="bottom">
+                <p class="face">
+                    <img src="./images/touxiang.jpg" alt="" width="38" height="38" class="plc">
+                </p>
+                <h2 class="title">我的旅游行程</h2>
+            </div>
+    
+            <p class="day">
+                14天
+            </p>
+            <div>
+                <em>
+                    城市
+                </em>
 
-</body>
-</html>
+                <span>
+                    昆明 - 香格里拉 - 西藏
+                </span>
+            </div>
+        </section>
+
+        <section class="plcRouteList2">
+            <a href="">
+                <img src="./images/hd.jpg" alt="" width="635">
+            </a> 
+    
+
+    
+            <div class="bottom2">
+                <p class="face2">
+                    <img src="./images/touxiang.jpg" alt="" width="38" height="38" class="plc">
+                </p>
+                <h2 class="title2">我的旅游行程</h2>
+            </div>
+    
+            <p class="secondday">
+                15天
+            </p>
+            <div>
+                <em>
+                    城市
+                </em>
+
+                <span>
+                    北京 - 常州 - 苏州 
+                </span>
+            </div>
+        </section>
+    </body>
+    <aside class="quid-aside">
+        <ul>
+            <li><a href=" ">首页</a></li>>
+            <li><a href=" ">目的地</a></li>>
+            <li><a href=" ">酒店</a></li>>
+            <li><a href=" ">机票</a></li>>
+            <li><a href=" ">时间</a></li>>
+            <li><a href=" ">点评</a></li>>
+            
+        </ul>
+
+    </aside>
+    
+    </hmtl>
